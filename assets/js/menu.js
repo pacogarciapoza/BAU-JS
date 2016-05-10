@@ -1,12 +1,9 @@
-// ejecuta el código dentro de la función cuando el documento haya cargado
 $(document).ready(function(){
-	// Al hacer click muestra y oculta las id's del botóm mobile
   $('#mobile-button').click(function() {
     $('#menu-container').show();
     $('#mobile-button').hide();
     $('#mobile-close').show();
   });
-  	// Al hacer click muestra y oculta las id's del botóm mobile close
   $('#mobile-close').click(function() {
     $('#menu-container').hide();
     $('#mobile-button').show();
